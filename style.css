@@ -36,3 +36,13 @@ h1 {
 h2 {
   font-family: "Times New Roman", Times, serif;
 }
+.project1 {
+  background-color: #9bd3d1;
+}
+.project1 .container .row .col img {
+  height: 60%;
+  width: 60%;
+}
+.project1 h2 {
+  font-size: 70px;
+}
