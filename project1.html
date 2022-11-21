@@ -45,6 +45,25 @@
     <section class="project1">
       <div class="container">
         <div class="row text-center mb-3">
+          <h3 id="text">
+            Teguh Wahyudiono
+            <span display="initial">Data Enthusiast</span>
+            <span>Data Analytics</span>
+            <span>Data Science</span>
+            <span>Software Engineer</span>
+            <span>Automation Programming</span>
+          </h3>
+          <script type="text/javascript">
+            let text = document.getElementById("text");
+            let word = document.getElementsByTagName("span");
+            let i = 0;
+            function rotator() {
+              word[i].style.display = "none";
+              i = (i + 1) % word.length;
+              word[i].style.display = "initial";
+            }
+            setInterval(rotator, 500);
+          </script>
           <div class="col">
             <h2 class="fw-bold">Project 01</h2>
             <img src="img project/codeigniter.png" />

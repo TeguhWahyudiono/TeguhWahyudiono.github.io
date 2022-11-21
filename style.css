@@ -36,13 +36,43 @@ h1 {
 h2 {
   font-family: "Times New Roman", Times, serif;
 }
+h3 {
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(225, 17, 31, 0.484);
+}
+h3 span {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: #0b2aef;
+  display: none;
+}
 .project1 {
   background-color: #9bd3d1;
 }
 .project1 .container .row .col img {
+  height: 40%;
+  width: 60%;
+}
+.project2 .container .row .col img {
   height: 60%;
   width: 60%;
 }
-.project1 h2 {
-  font-size: 70px;
+.project3 .container .row .col img {
+  height: 60%;
+  width: 60%;
+}
+.project4 .container .row .col img {
+  height: 40%;
+  width: 60%;
+}
+.project5 .container .row .col img {
+  height: 50%;
+  width: 60%;
+}
+.project6 .container .row .col img {
+  height: 50%;
+  width: 60%;
 }
