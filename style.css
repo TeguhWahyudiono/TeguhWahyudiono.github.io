@@ -49,7 +49,7 @@ h3 span {
   color: #0b2aef;
   display: none;
 }
-section .contact .container .row .col {
+section .contact .container .row .col li {
   display: inline-block;
   align-items: center;
   justify-content: space-between;
