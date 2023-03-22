@@ -49,6 +49,11 @@ h3 span {
   color: #0b2aef;
   display: none;
 }
+section .contact .container .row .col {
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+}
 .project1 {
   background-color: #9bd3d1;
 }
