@@ -18,10 +18,13 @@ a {
   font-weight: bold;
   text-decoration: none;
   color: #0b2aef;
-  /* color: #6206f6; */
 }
 section {
   padding-top: 6rem;
+}
+img {
+  width: 300px;
+  height: 300px;
 }
 p {
   font-family: "Times New Roman", Times, serif;
