@@ -15,7 +15,12 @@
 }
 
 .rotating-span {
-  display: inline-block;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.rotating-span.active {
+  opacity: 1;
 }
 
 a {
@@ -37,6 +42,7 @@ p {
 }
 footer p {
   font-size: 20px;
+  font-weight: bold;
 }
 h5 {
   font-family: "Times New Roman", Times, serif;
@@ -58,7 +64,7 @@ h3 {
   font-weight: bold;
   color: rgba(225, 17, 31, 0.484);
 }
-h3 span {
+h3 .rotating-span {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 30px;
   color: #0b2aef;

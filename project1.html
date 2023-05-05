@@ -47,7 +47,7 @@
         <div class="row text-center mb-3">
           <h3 id="text">Teguh Wahyudiono</h3>
           <h3>
-            <span class="rotating-span" display="initial">Data Enthusiast</span>
+            <span class="rotating-span">Data Enthusiast</span>
             <span class="rotating-span">Coding Programming</span>
             <span class="rotating-span">Software Developer</span>
           </h3>
@@ -55,17 +55,24 @@
           <script type="text/javascript">
             let text = document.getElementById("text");
             let words = document.getElementsByTagName("span");
-            let i = 0;
 
-            function rotator() {
-              words[i].style.display = "none";
-              i = (i + 1) % words.length;
-              words[i].style.display = "initial";
-              setTimeout(rotator, 500);
+            function rotate() {
+              const rotatingSpan = document.querySelectorAll(".rotating-span");
+              const activeClass = "active";
+              let itemIndex = 0;
+
+              setInterval(function () {
+                rotatingSpan[itemIndex].classList.remove(activeClass);
+                itemIndex++;
+                if (itemIndex === rotatingSpan.length) {
+                  itemIndex = 0;
+                }
+                rotatingSpan[itemIndex].classList.add(activeClass);
+              }, 2000);
             }
 
             if (text && words.length > 0) {
-              rotator();
+              rotate();
             }
           </script>
 
