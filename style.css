@@ -5,6 +5,7 @@
 
 #projects {
   background-color: #83ef9a;
+  padding-top: -20%;
 }
 .projects .container {
   background-color: #ffffff;
@@ -43,6 +44,7 @@ p {
 footer p {
   font-size: 20px;
   font-weight: bold;
+  color: #a70bef;
 }
 h5 {
   font-family: "Times New Roman", Times, serif;
